@@ -6,6 +6,8 @@ public class Test2 {
 
         MyMath.multi(v1, v2);
 
+        System.out.println("---------");
+
         MyMath myMath = new MyMath();
         myMath.divide(v1, v2);
     }
