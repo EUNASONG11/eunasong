@@ -11,5 +11,8 @@ public class Test3 {
 
         int v2 = mr.abs(-40);
         System.out.println(v2);
+
+        MyRandom.printGugudan(3);
+        MyRandom.printGugudan(5);
     }
 }
