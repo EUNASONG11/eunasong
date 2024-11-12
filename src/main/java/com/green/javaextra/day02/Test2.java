@@ -7,6 +7,6 @@ public class Test2 {
         MyMath.multi(v1, v2);
 
         MyMath myMath = new MyMath();
-        myMath.multi2(v1, v2);
+        myMath.divide(v1, v2);
     }
 }
