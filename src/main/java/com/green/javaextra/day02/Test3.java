@@ -6,6 +6,10 @@ public class Test3 {
         // MyRandom.abs(-10);
 
         MyRandom mr = new MyRandom();
-        mr.abs(30);
+        int v = mr.abs(30);
+        System.out.println(v);
+
+        int v2 = mr.abs(-40);
+        System.out.println(v2);
     }
 }

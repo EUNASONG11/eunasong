@@ -7,7 +7,7 @@ public class MyRandom {
         System.out.println(result);
     }
 
-    public void abs(int n) {
-
+    public int abs(int n) {
+        return n < 0 ? -n : n;
     }
 }
