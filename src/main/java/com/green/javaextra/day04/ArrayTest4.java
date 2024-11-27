@@ -16,6 +16,11 @@ public class ArrayTest4 {
 
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(arr2));
+
+        int[] arr3 = arrCopy(arr2);
+        System.out.println(arr2 == arr3); //false
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3)); //arr2와 arr3의 출력값이 같아야 한다.
     }
 
     public static int[] arrCopy(int[] arr, int add) {
@@ -24,5 +29,10 @@ public class ArrayTest4 {
             tmp[i] = arr[i] + add;
         }
         return tmp;
+    }
+
+    //오버로딩
+    public static int[] arrCopy(int[] arr) {
+        return arrCopy(arr, 0);
     }
 }
